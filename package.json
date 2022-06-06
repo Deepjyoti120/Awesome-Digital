@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "daisyui": "^2.15.2",
+    "flowbite": "^1.4.7",
     "tailwindcss": "^1.5.1"
   }
 }
