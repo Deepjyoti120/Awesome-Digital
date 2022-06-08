@@ -19,14 +19,16 @@
       ======================================= */
       window.onscroll = function () {
         var header_navbar = document.querySelector(".navigation");
+        var text_color = document.querySelector(".texteffect");
         var sticky = header_navbar.offsetTop;
 
         if (window.pageYOffset > sticky) {
-          header_navbar.classList.add("sticky");
+          header_navbar.classList.add("sticky"); 
+          text_color.classList.add("text-white-header");
         } else {
-          header_navbar.classList.remove("sticky");
-        }
-
+          header_navbar.classList.remove("sticky"); 
+          text_color.classList.remove("text-white-header");
+        } 
 
 
         // show or hide the back-top-top button

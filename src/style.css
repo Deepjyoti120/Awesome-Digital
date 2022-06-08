@@ -16,10 +16,11 @@ p {
   @apply mx-auto px-5;
 }
 .btn {
-  @apply text-white bg-blue-600 px-10 py-3 rounded-full duration-300;
+  @apply text-white   px-10 py-3 rounded-full duration-300;
+  background-color: #4338CA;
 }
 .btn:hover {
-  @apply bg-blue-500;
+  background-color: #080066;
 }
 .sticky {
   @apply fixed  shadow;
@@ -47,14 +48,18 @@ p {
   transform: rotate(135deg);
 }
 .page-scroll {
-  @apply block px-5 py-2 uppercase text-gray-700 duration-300;
+  @apply   block px-5 py-2 uppercase   !important duration-300; 
+}
+.text-white-header {
+  color: #000000 !important;
 }
 .page-scroll.active,
 .page-scroll:hover {
-  @apply text-blue-600;
+  @apply text-white ;
+  background-color: #ff845b;
 }
 .section-heading {
-  @apply text-4xl text-gray-700 font-bold tracking-wide;
+  @apply text-4xl  font-bold tracking-wide;
 }
 
 .icon {
