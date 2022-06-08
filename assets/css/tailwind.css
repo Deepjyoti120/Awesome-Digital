@@ -1193,14 +1193,14 @@ p {
 
 .collapse.show {
   display: block;
-  color: #000;
+  color: #000000 !important;
 }
 
 .toggler-icon {
   display: block;
   --bg-opacity: 1;
-  background-color: #4a5568;
-  background-color: rgba(74, 85, 104, var(--bg-opacity));
+  background-color: #fbd38d;
+  background-color: rgba(251, 211, 141, var(--bg-opacity));
   position: relative;
   transition-duration: 300ms;
   height: 2px;
