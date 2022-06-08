@@ -984,11 +984,6 @@ video {
   padding-bottom: 6rem;
 }
 
-.py-56{
-  padding-top: 14rem;
-  padding-bottom: 14rem;
-}
-
 .pr-2{
   padding-right: 0.5rem;
 }
@@ -1666,6 +1661,11 @@ p {
 
   .lg\:ml-6{
     margin-left: 1.5rem;
+  }
+
+  .lg\:py-56{
+    padding-top: 14rem;
+    padding-bottom: 14rem;
   }
 
   .lg\:pl-6{
