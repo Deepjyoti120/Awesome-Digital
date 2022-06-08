@@ -32,10 +32,11 @@ p {
   color: #000000 !important;
 }
 .toggler-icon {
-  @apply block bg-orange-300 relative duration-300;
+  @apply block relative duration-300;
   height: 2px;
   width: 30px;
   margin: 6px 0;
+  background-color: #FF845C;
 }
 .active>.toggler-icon:nth-child(1) {
   @apply transform rotate-45;

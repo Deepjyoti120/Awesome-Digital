@@ -1193,14 +1193,12 @@ p {
 
 .toggler-icon {
   display: block;
-  --bg-opacity: 1;
-  background-color: #fbd38d;
-  background-color: rgba(251, 211, 141, var(--bg-opacity));
   position: relative;
   transition-duration: 300ms;
   height: 2px;
   width: 30px;
   margin: 6px 0;
+  background-color: #FF845C;
 }
 
 .active>.toggler-icon:nth-child(1) {
