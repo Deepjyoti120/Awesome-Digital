@@ -29,6 +29,7 @@ p {
 }
 .collapse.show {
   @apply block;
+  color: #000 !important;
 }
 .toggler-icon {
   @apply block bg-gray-700 relative duration-300;

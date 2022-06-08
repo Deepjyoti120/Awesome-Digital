@@ -1193,6 +1193,7 @@ p {
 
 .collapse.show {
   display: block;
+  color: #000;
 }
 
 .toggler-icon {
